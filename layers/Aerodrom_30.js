@@ -1,0 +1,1 @@
+var json_Aerodrom_30 = {"type":"FeatureCollection","name":"Aerodrom_30","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Naziv":"Aerodrom \"ŠpiroMugoša\""},"geometry":{"type":"Point","coordinates":[19.293768700232864,42.423217555834952]}}]}

@@ -1,0 +1,1 @@
+var json_Autobuskastanica_31 = {"type":"FeatureCollection","name":"Autobuskastanica_31","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Naziv":"Autobuska stanica Podgorica","Link":"https://g.co/kgs/r4ew44V"},"geometry":{"type":"Point","coordinates":[19.268149776216589,42.432244938562619]}}]}

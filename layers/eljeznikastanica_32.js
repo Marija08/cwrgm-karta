@@ -1,0 +1,1 @@
+var json_eljeznikastanica_32 = {"type":"FeatureCollection","name":"eljeznikastanica_32","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Naziv":"Željeznička stanica Podgorica","Link":"https://zpcg.me"},"geometry":{"type":"Point","coordinates":[19.269130815039414,42.432133023939635]}}]}

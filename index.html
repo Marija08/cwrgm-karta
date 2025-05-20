@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/putevi2_3.js"></script><script src="layers/putevi1_4.js"></script><script src="layers/putevi_grad_5.js"></script><script src="layers/Zgrade_grad_6.js"></script><script src="layers/Rijeke_grad_7.js"></script><script src="layers/Groblja_grad_8.js"></script><script src="layers/Zelene_povrine_9.js"></script><script src="layers/Rijeke_10.js"></script><script src="layers/Parkovi_11.js"></script><script src="layers/Park_uma_12.js"></script><script src="layers/Trimstaza_13.js"></script><script src="layers/Plantae_vinograd_14.js"></script><script src="layers/Plantae_vonjak_15.js"></script><script src="layers/Obrazovne_ustanove_16.js"></script><script src="layers/Biblioteke_17.js"></script><script src="layers/Pozorita_18.js"></script><script src="layers/Trni_centar_19.js"></script><script src="layers/Sud_20.js"></script><script src="layers/Zdravstvene_ustanove_21.js"></script><script src="layers/Dom_zdravlja_22.js"></script><script src="layers/Ustanove_23.js"></script><script src="layers/Kasarna_24.js"></script><script src="layers/Muzeji_25.js"></script><script src="layers/Znamenitosti_26.js"></script><script src="layers/Crkve_27.js"></script><script src="layers/Rekreacija_28.js"></script><script src="layers/Groblje_29.js"></script><script src="layers/Aerodrom_30.js"></script><script src="layers/Autobuskastanica_31.js"></script><script src="layers/eljeznikastanica_32.js"></script><script src="layers/Damije_33.js"></script><script src="layers/Pumpa_34.js"></script><script src="layers/Restorani_35.js"></script><script src="layers/Marketi_36.js"></script><script src="layers/Hoteli_37.js"></script><script src="layers/Kafii_38.js"></script>
+        <script src="styles/putevi2_3_style.js"></script><script src="styles/putevi1_4_style.js"></script><script src="styles/putevi_grad_5_style.js"></script><script src="styles/Zgrade_grad_6_style.js"></script><script src="styles/Rijeke_grad_7_style.js"></script><script src="styles/Groblja_grad_8_style.js"></script><script src="styles/Zelene_povrine_9_style.js"></script><script src="styles/Rijeke_10_style.js"></script><script src="styles/Parkovi_11_style.js"></script><script src="styles/Park_uma_12_style.js"></script><script src="styles/Trimstaza_13_style.js"></script><script src="styles/Plantae_vinograd_14_style.js"></script><script src="styles/Plantae_vonjak_15_style.js"></script><script src="styles/Obrazovne_ustanove_16_style.js"></script><script src="styles/Biblioteke_17_style.js"></script><script src="styles/Pozorita_18_style.js"></script><script src="styles/Trni_centar_19_style.js"></script><script src="styles/Sud_20_style.js"></script><script src="styles/Zdravstvene_ustanove_21_style.js"></script><script src="styles/Dom_zdravlja_22_style.js"></script><script src="styles/Ustanove_23_style.js"></script><script src="styles/Kasarna_24_style.js"></script><script src="styles/Muzeji_25_style.js"></script><script src="styles/Znamenitosti_26_style.js"></script><script src="styles/Crkve_27_style.js"></script><script src="styles/Rekreacija_28_style.js"></script><script src="styles/Groblje_29_style.js"></script><script src="styles/Aerodrom_30_style.js"></script><script src="styles/Autobuskastanica_31_style.js"></script><script src="styles/eljeznikastanica_32_style.js"></script><script src="styles/Damije_33_style.js"></script><script src="styles/Pumpa_34_style.js"></script><script src="styles/Restorani_35_style.js"></script><script src="styles/Marketi_36_style.js"></script><script src="styles/Hoteli_37_style.js"></script><script src="styles/Kafii_38_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>

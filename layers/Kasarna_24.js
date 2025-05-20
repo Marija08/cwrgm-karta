@@ -1,0 +1,1 @@
+var json_Kasarna_24 = {"type":"FeatureCollection","name":"Kasarna_24","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Naziv":"Kasarna-\"MarkoMiljanovPopović\""},"geometry":{"type":"Point","coordinates":[19.291916949768723,42.444580350864513]}}]}
